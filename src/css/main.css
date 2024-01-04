@@ -11,4 +11,6 @@ body{
     background-color: #BE4652;
     background-position: right -10% top -30%;
     background-attachment: fixed;
+    overflow-x: hidden;
+    max-width: 100%;
 }

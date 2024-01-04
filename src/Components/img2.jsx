@@ -8,7 +8,7 @@ export default function img2() {
             <img className="absolute w-[330px] h-[194px] top-0 left-0 object-cover" alt="Image" src={image2} />
             <img className="absolute w-[35px] h-[35px] top-[210px] left-[28px]" alt="Link simple" src={linker} />
             <div className="absolute w-[211px] top-[198px] left-[86px] [font-family:'Acme-Regular',Helvetica] font-normal text-[#4f1a1a] text-[48px] tracking-[0] leading-[normal] whitespace-nowrap">
-                FANDOM
+                Fandom
             </div>
         </div>
   )
