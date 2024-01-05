@@ -1,16 +1,11 @@
 
-nav{
-    background-color: #BE4652;
-    font-family: 'Crimson Pro';
-}
-
-
 body{
-    background-image: url('../images/backgroundcolor.jpg');
+    background-image: url('../images/hellish.png');
     background-repeat: no-repeat;
-    background-color: #BE4652;
-    background-position: right -10% top -30%;
-    background-attachment: fixed;
+    background-position: center bottom 40%;
+    background-attachment: none;
+    background-size: cover;
     overflow-x: hidden;
+    overflow-y: hidden;
     max-width: 100%;
 }
