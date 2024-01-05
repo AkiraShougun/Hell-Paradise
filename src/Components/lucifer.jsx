@@ -1,11 +1,24 @@
 import React from 'react'
-import luciferBlush from '../images/luciferblush.png'
-import luciferOriginal from '../images/lucifer.png'
+import { useState } from 'react'
+import Lucifer from '../images/lucifer.png'
+import Blush from '../images/luciferblush.png'
 
 export default function lucifer() {
+
+    const [ImageSrc, setImageSrc] = useState(Lucifer)
+
+    const mouseHover = () => {
+        setImageSrc(Blush)
+    }
+    
+    const mouseLeave = () => {
+        setImageSrc(Lucifer)
+    }
+
   return (
+
     <>
-        <img className='' src={luciferOriginal}/>
+        <img id='luci' src={ImageSrc} alt='lucifer' onMouseOver={mouseHover} onMouseLeave={mouseLeave} />
     </>
   )
 }
